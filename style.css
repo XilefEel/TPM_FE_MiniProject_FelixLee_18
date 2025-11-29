@@ -1,0 +1,104 @@
+* {
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("assets/vivid-blurred-colorful-wallpaper-background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.auth-card {
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  font-family: sans-serif;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+  width: 1160px;
+  height: 684px;
+}
+
+.auth-card-left {
+  width: 50%;
+}
+
+.auth-card-left img {
+  height: 100%;
+}
+
+.auth-card-right {
+  width: 50%;
+  padding: 0px 113px 0px 113px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 18px;
+}
+
+.auth-card-right h2 {
+  margin: 0;
+  text-align: center;
+  font-size: 40px;
+  font: x-large;
+  background: linear-gradient(90deg, #8fcef5, #4986db);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.auth-card-right .checkbox {
+  color: gray;
+  display: flex;
+  align-items: center;
+  font-size: smaller;
+}
+
+.auth-card p {
+  margin: 0;
+  font-size: 13px;
+  text-align: center;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs .input {
+  display: flex;
+  flex-direction: column;
+  padding: 14px 14px;
+  border: 1px solid black;
+  font-size: x-small;
+}
+
+.inputs input {
+  border: 0;
+  outline: none;
+  padding: 0;
+  font-size: small;
+}
+
+.auth-card-right button {
+  padding: 14px;
+  border: none;
+  background: black;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.options {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}

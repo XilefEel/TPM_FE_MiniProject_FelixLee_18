@@ -4,10 +4,64 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cascadia+Code:ital,wght@0,200..700;1,200..700&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Zen+Kaku+Gothic+Antique&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <p>sign in</p>
-    <a href="log-in.html">d</a>
+    <div class="auth-card">
+      <div class="auth-card-left">
+        <img src="assets/Rectangle 14.png" alt="preview" />
+      </div>
+      <div class="auth-card-right">
+        <h2>Registration</h2>
+
+        <div class="inputs">
+          <div class="input">
+            <label>FIRST NAME</label>
+            <input type="text" placeholder="First Name" />
+          </div>
+          <div class="input">
+            <label>EMAIl ADDRESS</label>
+            <input type="email" placeholder="Email Address" />
+          </div>
+          <div class="input">
+            <label>PASSWORD</label>
+            <input type="password" placeholder="Password" />
+          </div>
+          <div class="input">
+            <label>CONFIRM PASSWORD</label>
+            <input type="password" placeholder="Confirm Password" />
+          </div>
+        </div>
+
+        <div class="checkbox">
+          <input type="checkbox" id="checkbox" />
+          <label for="checkbox"
+            >I agree to the Terms of Service and Privacy Policy</label
+          >
+        </div>
+
+        <button>CREATE AN ACCOUNT</button>
+
+        <p>OR</p>
+
+        <div class="options">
+          <div class="option">
+            <img src="assets/google.png" alt="google" />
+          </div>
+          <div class="option">
+            <img src="assets/facebook.png" alt="facebook" />
+          </div>
+          <div class="option">
+            <img src="assets/apple.png" alt="apple" />
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
