@@ -10,9 +10,29 @@ body {
   background-position: center;
   background-attachment: fixed;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-evenly;
   align-items: center;
   height: 100vh;
+}
+
+.action-button {
+  padding: 14px;
+  border: black solid 2px;
+  background-color: transparent;
+  color: black;
+  font-size: 14px;
+  cursor: pointer;
+  width: 136px;
+  height: 48px;
+  margin-left: auto;
+  margin-right: 60px;
+  font: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  text-decoration: none;
 }
 
 .auth-card {
@@ -22,12 +42,12 @@ body {
   display: flex;
   font-family: sans-serif;
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
-  width: 1160px;
+  width: 1161px;
   height: 684px;
 }
 
 .auth-card-left {
-  width: 50%;
+  width: 561px;
 }
 
 .auth-card-left img {
@@ -35,8 +55,8 @@ body {
 }
 
 .auth-card-right {
-  width: 50%;
-  padding: 0px 113px 0px 113px;
+  width: 600px;
+  padding: 0px 110px 0px 110px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -46,8 +66,8 @@ body {
 .auth-card-right h2 {
   margin: 0;
   text-align: center;
-  font-size: 40px;
-  font: x-large;
+  font-size: 48px;
+  font: 900;
   background: linear-gradient(90deg, #8fcef5, #4986db);
   background-clip: text;
   -webkit-background-clip: text;
@@ -101,4 +121,11 @@ body {
   gap: 20px;
   justify-content: center;
   align-items: center;
+}
+
+.copyright {
+  font-weight: lighter;
+  font-size: 13px;
+  text-align: center;
+  color: #616161;
 }
